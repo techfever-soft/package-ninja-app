@@ -1,0 +1,32 @@
+{
+  "name": "@techfever/package-ninja-app",
+  "version": "0.1.0",
+  "description": "PackageNinja app - A simple package manager for Node.js",
+  "private": false,
+  "scripts": {
+    "start": "tsc && npm run install",
+    "install": "node dist/run-installer.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "package manager",
+    "dependency management",
+    "node.js",
+    "angular",
+    "react",
+    "vue",
+    "typescript",
+    "cli",
+    "vscode extension"
+  ],
+  "author": "D-C-MATE",
+  "license": "ISC",
+  "main": "dist/run-installer.js",
+  "bin": {
+    "package-ninja-app": "./dist/run-installer.js"
+  },
+  "dependencies": {
+    "@types/node": "^20.14.9",
+    "node-fetch": "^3.3.2"
+  }
+}
